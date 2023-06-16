@@ -1,0 +1,47 @@
+//SASS PAGE
+$base-color: #c6538c;
+$blac-color:#212121;
+$back-opacity: rgb(33, 33, 33,.9);
+$white-olor: #fff;
+
+nav{
+    background: transparent;
+    // background: $blac-color;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    .icon{
+        img{
+            height: 120px;
+            width: 150px;
+        }
+    }
+
+    .items{
+        align-items: center;
+        // background: blue;
+        ul{
+            color: $white-olor;
+            // background: red;
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 20px;
+            // list-style: none;
+            li{
+                text-decoration: none;
+                list-style: none;
+                color: $white-olor;
+                font-size: 15px;
+                font-weight: 600;
+                .link{
+                    text-decoration: none;
+                    color: $white-olor;
+                }
+            }
+            
+        }
+    }
+}
