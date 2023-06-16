@@ -33,18 +33,18 @@ $white-black:#f7f7f7;
 
 @media screen and (max-width:600px){
     .chiffer{
-        width: 90%;
+        width: 98%;
         // height: 80%;
         margin: auto;
         // background: $red;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 5px;
     
         .chif{
             color: $white-kolor;
             // background: $blue;
-            margin-top: 50px;
+            margin-top: 20px;
             margin-bottom: 3px;
             // height: 120px;
             h2{
