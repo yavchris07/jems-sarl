@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/middle-banner.scss'
+import ChifferList from './chiffer-list';
 
 function MiddleBanner() {
   return (
     <section className='middle-banner'>
       <div className='cover'>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium sunt, molestias velit beatae odit quod neque quos obcaecati porro minima veniam, mollitia animi odio adipisci, eius eligendi quo dolore corrupti.
+        <ChifferList />
+        <h3>Chiffres d'affaires : xxxxxxx $</h3>
       </div>
     </section>
   );

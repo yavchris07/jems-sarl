@@ -9,7 +9,7 @@ $white-black:#f7f7f7;
 
 .middle-banner{
     width: 100%;
-    height: 400px;
+    height: 600px;
     background: url('../assets/download\ \(1\).jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,5 +18,36 @@ $white-black:#f7f7f7;
         width: 100%;
         height: 100%;
         background: $back-opacity;
+        // padding-top: 20px;
+        h3{
+            color: $white-black;
+            font-size: 35px;
+            margin: auto;
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width:600px){
+    .middle-banner{
+        width: 100%;
+        background: url('../assets/download\ \(1\).jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        .cover{
+            width: 100%;
+            height: 100%;
+            background: $back-opacity;
+            // padding-top: 20px;
+            h3{
+                color: $white-black;
+                font-size: 25px;
+                margin-top: 10px;
+                width: 100%;
+                // background: red;
+                text-align: center;
+            }
+        }
     }
 }
