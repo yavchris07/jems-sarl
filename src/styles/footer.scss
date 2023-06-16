@@ -65,6 +65,7 @@ $white-black:#f7f7f7;
                 display: flex;
                 flex-direction: column;
                 // background: blue;
+          
                 label{
                     font-size: 11px;
                     color: grey;
@@ -200,6 +201,8 @@ $white-black:#f7f7f7;
                 .control{
                     display: flex;
                     flex-direction: column;
+                    width: 97%;
+                    margin: auto;
                     label{
                         font-size: 12px;
                         color: grey;
