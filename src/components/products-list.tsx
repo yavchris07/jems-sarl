@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState } from 'react';
 import '../styles/product-list.scss';
 import PRODUCT from '../models/comm-data';
 import Product from '../models/produict';
