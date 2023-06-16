@@ -10,7 +10,7 @@ function TransportList() {
     <div className='transport-list'>
       {
         transport.map((trans,index)=>(
-          <div className='trans'>
+          <div className='trans' key={index}>
             <div className='cover'></div>
             <div className='detail'>
               <h4>Depart:  {trans.depart}</h4>

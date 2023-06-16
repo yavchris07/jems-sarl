@@ -1,25 +1,25 @@
-import Product from "./produict";
+import Comm from "./comm";
 
-export const PRODUCT: Product[] = [
+export const COMM: Comm[] = [
     {
         "id":1,
-        "title":"Nom produit XXXXXXXXX",
-        "type":"Energie-electique",
-        "price":"50 $"
+        "title":"Energie-électique XXXXXXXXX",
+        "type":"Par paquet",
+        "price":"prix reduit"
         
     },
     {
         "id":2,
-        "title":"Nom produit XXXXXXXXX",
-        "type":"Energie-renouvelable",
-        "price":"200 $"
+        "title":"Energie-renouvelable XXXXXXXXX",
+        "type":"Par paquet",
+        "price":"prix reduit"
     },
     {
         "id":3,
-        "title":"Nom produit XXXXXXXXX",
-        "type":"Energie-renouvelable",
-        "price":"100$"
+        "title":"Energie-renouvelable XXXXXXXXX",
+        "type":"Par lot",
+        "price":"prix reduit"
     }
 ];
 
-export default PRODUCT
+export default COMM
