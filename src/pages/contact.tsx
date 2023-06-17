@@ -32,9 +32,9 @@ function Contact() {
         <br />
         <div className='adress-tel'>
           <h4>Nos adresses telephoniques</h4>
-          <p>+243 997 784 456</p>
-          <p>+243 997 784 456</p>
-          <p>+243 997 784 456</p> <br />
+          <p> <span>☏</span>  +243 997 784 456</p>
+          <p> <span>☎</span> +243 997 784 456</p>
+          <p> <span>☏</span> +243 997 784 456</p> 
         </div>
         <br />
         <div className='icons1'>

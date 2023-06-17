@@ -6,9 +6,12 @@ $back-opacity: rgb(0, 0, 0,.9);
 $white-kolor: #fff;
 $white-opacity:#f9f9f9;
 $white-black:#f7f7f7;
+$red: #ff0006;
+$blue:#003464;
+$yellow:#ff9922;
 
 .contact{
-    transition: 2s;
+    transition: all 2s;
     .body{
         // background: red;
         width: 85%;
@@ -19,20 +22,18 @@ $white-black:#f7f7f7;
         }
         .adress-phyz{
             // background-color: #fff;
-            border-left: 3px solid red;
-            // padding: 2px;
-            // margin: 15px;
+            border-left: 7px solid $red;
+            padding-left: 3px;
         }
         .adress-elec{
             // background-color: #fff;
-            border-left: 3px solid #003464;
-            // padding: 2px;
-            // margin: 15px;
+            border-left: 7px solid $blue;
+            padding-left: 3px;
         }
         .adress-tel{
             // background-color: #fff;
-            border-left: 3px solid $blac-color;
-            // padding: 2px;
+            border-left: 7px solid $blac-color;
+            padding-left: 3px;
         }
         .icons{
             width: 40%;
@@ -70,19 +71,19 @@ $white-black:#f7f7f7;
             }
             .adress-phyz{
                 background-color: #fff;
-                border-left: 3px solid red;
+                border-left: 5px solid red;
                 // padding: 2px;
                 // margin: 15px;
             }
             .adress-elec{
                 background-color: #fff;
-                border-left: 3px solid #003464;
+                border-left: 5px solid #003464;
                 // padding: 2px;
                 // margin: 15px;
             }
             .adress-tel{
                 background-color: #fff;
-                border-left: 3px solid $blac-color;
+                border-left: 5px solid $blac-color;
                 // padding: 2px;
                 p{
                     font-weight: 600;

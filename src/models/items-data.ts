@@ -1,4 +1,4 @@
-import Item from "./model";
+import Item from "./items";
 
 export const TODOS: Item[] = [
     {

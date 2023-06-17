@@ -11,7 +11,9 @@ function TransportList() {
       {
         transport.map((trans,index)=>(
           <div className='trans' key={index}>
-            <div className='cover'></div>
+            <div className='cover'>
+              <img src={trans.photo} alt="pictur" />
+            </div>
             <div className='detail'>
               <h4>Depart:  {trans.depart}</h4>
               <h5>Destination: {trans.destination}</h5>

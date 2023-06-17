@@ -4,7 +4,7 @@ $blac-color:#212121;
 $red: #ff0006;
 $blue:#003464;
 $yellow:#ff9922;
-$back-opacity: rgb(0, 0, 0,.5);
+$back-opacity: rgb(0, 0, 0,.7);
 $white-kolor: #fff;
 $white-opacity:#f9f9f9;
 $white-black:#f7f7f7;
@@ -24,6 +24,11 @@ $white-black:#f7f7f7;
             background: $yellow;
             width: 100%;
             height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
         .detail{
             background: $back-opacity;

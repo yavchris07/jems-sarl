@@ -10,8 +10,10 @@ function CommList() {
     <div className='comm-list'>
       {
         comm.map((com,index)=>(
-          <div className='comm-card'>
-            <div className='cover'></div>
+          <div className='comm-card' key={index}>
+            <div className='cover'>
+              <img src={com.photo} alt="pic" />
+            </div>
             <h3>{com.title}</h3>
             <span>{com.type}</span>
             <br />

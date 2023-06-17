@@ -23,7 +23,13 @@ $white-black:#f7f7f7;
         .cover{
             background: $blue;
             height: 300px;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: fill;
+            }
         }
+        h3{color: $blue;}
         span{font-weight: 500; font-size: 14px;}
         small{color: $yellow; font-weight: bold;}
     }

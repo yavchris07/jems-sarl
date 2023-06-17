@@ -25,6 +25,11 @@ $white-black:#f7f7f7;
             width: 100%;
             height: 79%;
             background: $blac-color;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
         h4{
             margin: 7px;

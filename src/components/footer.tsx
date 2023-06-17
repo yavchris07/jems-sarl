@@ -1,7 +1,7 @@
 // import React from 'react';
 import '../styles/footer.scss'
-import Item from '../models/model'
-import TODOS from '../models/todos';
+import Item from '../models/items'
+import TODOS from '../models/items-data';
 import { useState } from 'react';
 import icon from '../assets/icons/icon.png';
 import fb from "../assets/icons/fb.png";
