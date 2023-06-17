@@ -1,7 +1,7 @@
 // import React from 'react';
 import BannerShort from '../components/banner-short';
 import '../styles/contact.scss';
-import icon from '../assets/icons/icon-yellow.png';
+// import icon from '../assets/icons/icon-yellow.png';
 import icon2 from '../assets/icons/icon-white.png';
 
 
